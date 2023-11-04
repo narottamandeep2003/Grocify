@@ -15,18 +15,8 @@ export default function Home() {
       <div className="section">
         <Product Margin={{ "margin": "100px" }}></Product>
       </div>
-      {/* 
+      <AboutUs></AboutUs>
       
-      <Category></Category>
-      <h1 className='HProduct'>Product</h1>
-      <div className="section">
-       
-        <Product Margin={{ "margin": "100px" }}></Product>
-      </div>
-      
-      <AboutUs></AboutUs> */}
-      {/* <Offers></Offers> */}
-      {/* <Footer></Footer> */}
     </div>
   )
 }

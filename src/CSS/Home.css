@@ -5,7 +5,7 @@
     justify-content: center;
     /* align-items: center; */
     width: 100vw;
-    
+
     /* height: 100vh; */
     /* background-color: #222; */
     /* background-color: white; */
@@ -38,50 +38,55 @@
     font-family: 'Playfair Display', serif;
 }
 
-.LQ{
+.LQ {
     display: flex;
     justify-content: space-between;
     width: 100%;
     /* border: 1px solid black; */
 }
-.LQ1{
+
+.LQ1 {
     display: flex;
     position: relative;
     width: 40%;
 }
 
-.LQ1 p{
+.LQ1 p {
     font-weight: 500;
 }
-.fQ{
+
+.fQ {
     position: relative;
     top: -50px;
     width: 70px;
     height: 70px;
 }
-.sQ{
+
+.sQ {
     align-self: last baseline;
-    right:30px;
+    right: 30px;
     bottom: 0px;
     position: relative;
     /* margin-left: 1px; */
     width: 30px;
     height: 30px;
 }
-.LImagesBox{
-   display: flex;
-   /* flex-direction: column; */
-   justify-content: center;
-   align-items: center;
-   /* border: 1px solid black; */
+
+.LImagesBox {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
 }
-.LItems{
-   
+
+.LItems {
+
     display: flex;
     justify-content: space-between;
 }
 
-.L1itemB1{
+.L1itemB1 {
     display: flex;
     align-items: flex-end;
     margin: 5px;
@@ -93,15 +98,18 @@
     justify-content: center;
     font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
-    
+
 }
-.L1itemB1 p{
+
+.L1itemB1 p {
     padding: 0;
 }
-.L1itemRB2 p{
+
+.L1itemRB2 p {
     padding: 0;
 }
-.L1itemRB1{
+
+.L1itemRB1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -116,15 +124,17 @@
     font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
 }
-.LImgM{
+
+.LImgM {
     margin: 0px 50px;
     border-radius: 150px;
     height: 500px;
     width: 300px;
-    object-fit:cover;
+    object-fit: cover;
     object-position: center;
 }
-.L1itemB2{
+
+.L1itemB2 {
     border-radius: 5px;
     margin: 5px;
     object-fit: cover;
@@ -132,7 +142,9 @@
     width: 200px;
     height: 120px;
 }
-.L1itemB3,.L1itemB4{
+
+.L1itemB3,
+.L1itemB4 {
     border-radius: 10px;
     margin: 5px;
     object-fit: cover;
@@ -140,6 +152,7 @@
     width: 200px;
     height: 250px;
 }
+
 .landingIntro {
     display: flex;
     justify-content: center;
@@ -437,14 +450,14 @@
 
 .Category h3 {
     font-size: 3rem;
-   text-align:  center;
-   font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
     margin: 100px 0px;
 
 }
 
-.CategoryList{
+.CategoryList {
     margin: 20px 0px;
     width: 80%;
     display: flex;
@@ -459,18 +472,21 @@
     display: flex;
     flex-direction: column;
 }
-.cItem img{
+
+.cItem img {
     width: 200px;
     height: 250px;
     object-position: center;
     object-fit: cover;
 }
-.cItem span{
+
+.cItem span {
     margin-top: 2px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9rem;
     color: black;
 }
+
 .Footer {
     background-color: white;
     border: 1px solid bisque;
@@ -490,15 +506,16 @@
 
 /* Product */
 
-.HProduct{
+.HProduct {
     margin: 150px 0px;
     margin-bottom: 50px;
     width: 100vw;
     font-size: 3rem;
-   text-align:  center;
-   font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
 }
+
 .Product {
     /* border: 1px solid black; */
     background-color: white;
@@ -684,7 +701,7 @@
     border: none;
     border-radius: 25px;
 
-    background-color:  #d1d1d1;
+    background-color: #d1d1d1;
 }
 
 .ProductPrice button svg {
@@ -736,14 +753,15 @@
     justify-content: center;
     margin-bottom: 100px;
 }
-.AboutUs h1{
+
+.AboutUs h1 {
     font-size: 3rem;
-   text-align:  center;
-   font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
 }
 
-.AboutSection{
+.AboutSection {
     margin-top: 100px;
     width: 70%;
     display: flex;
@@ -751,14 +769,16 @@
     align-items: center;
 }
 
-.AboutImg{
+.AboutImg {
     height: 70vh;
 }
-.AboutSection p{
+
+.AboutSection p {
     width: 40%;
 
 }
-.Footer{
+
+.Footer {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -767,25 +787,29 @@
     height: 150px;
     background-color: #0e142d;
 }
-.Footer h1{
+
+.Footer h1 {
     font-size: 1.3rem;
     text-align: center;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
 }
-.FooterLinks{
+
+.FooterLinks {
     /* margin-top: 50px; */
     /* width: 50%; */
     display: flex;
     justify-content: space-evenly;
 }
-.FooterLinks span{
+
+.FooterLinks span {
     margin: 0px 50px;
     font-size: .8rem;
     color: white;
 }
-.FooterLinksIcon span{
+
+.FooterLinksIcon span {
     width: 20px;
     height: 20px;
     color: white;
@@ -794,9 +818,10 @@
 }
 
 @media screen and (max-width:700px) {
-    .LandingPage{
+    .LandingPage {
         margin-top: 50px;
     }
+
     .Lheading {
         width: 100%;
         text-align: center;
@@ -804,28 +829,33 @@
         font-family: 'Dancing Script', cursive;
         font-family: 'Playfair Display', serif;
     }
-    .LQ{
+
+    .LQ {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
         /* border: 1px solid black; */
     }
-    .LQ1{
+
+    .LQ1 {
         display: flex;
         position: relative;
         width: 100%;
     }
-    .LQ1 p{
+
+    .LQ1 p {
         font-size: .8rem;
         font-weight: 500;
     }
-    .fQ{
+
+    .fQ {
         position: relative;
         top: -20px;
         width: 30px;
         height: 30px;
     }
+
     .profileL {
         cursor: pointer;
         width: 40px;
@@ -835,42 +865,51 @@
         object-position: center;
         /* border: 2px solid white; */
     }
-    .LImagesBox{
+
+    .LImagesBox {
         display: flex;
         /* flex-direction: column; */
         justify-content: center;
         align-items: center;
         flex-direction: column;
         /* border: 1px solid black; */
-     }
-     .L1itemB1{
+    }
+
+    .L1itemB1 {
         display: none;
-     }
-     .L1itemB2{
+    }
+
+    .L1itemB2 {
         display: none;
-     }
-     .L1itemRB1{
+    }
+
+    .L1itemRB1 {
         display: none;
-     }
-     .L1itemB3,.L1itemB4{
+    }
+
+    .L1itemB3,
+    .L1itemB4 {
         display: none;
-     }
-     .LImgM{
+    }
+
+    .LImgM {
         margin: 10px 0px;
         border-radius: 0px;
-         width: 100%;
-        object-fit:cover;
+        width: 100%;
+        object-fit: cover;
         object-position: center;
     }
+
     .Category h3 {
         font-size: 2rem;
-       text-align:  center;
-       font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
         font-family: 'Playfair Display', serif;
         margin: 70px 0px;
-    
+
     }
-    .CategoryList{
+
+    .CategoryList {
         margin: 0px 0px;
         width: 100%;
         display: flex;
@@ -878,6 +917,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .cItem {
         margin: 20px 0px;
         display: flex;
@@ -888,27 +928,31 @@
         align-items: center;
         flex-direction: column;
     }
-    .cItem img{
+
+    .cItem img {
         width: 90%;
         /* height: ; */
         object-position: center;
         object-fit: cover;
     }
-    .cItem span{
+
+    .cItem span {
         margin-top: 2px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: .9rem;
         color: black;
     }
-    .HProduct{
+
+    .HProduct {
         margin: 70px 0px;
         margin-bottom: 50px;
         width: 100vw;
         font-size: 2rem;
-       text-align:  center;
-       font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
         font-family: 'Playfair Display', serif;
     }
+
     .Product {
         /* border: 1px solid black; */
         background-color: white;
@@ -921,6 +965,7 @@
         /* grid-template: auto auto auto; */
         /* justify-content: center; */
     }
+
     .ProductsItem {
 
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -932,9 +977,10 @@
         width: 150px;
         padding-bottom: 10px;
         transition: all .3s ease;
-    
+
         border: 1px solid rgb(212, 212, 212);
     }
+
     .ProductImgSec {
         position: relative;
         display: flex;
@@ -945,15 +991,41 @@
         /* background-color: #ffd7c2; */
         width: 100%;
         height: 120px;
-    
+
     }
-    .ProductBody h1 {
-        /* margin-top: 5px; */
-        padding: 2px 2px;
-        font-size: .8rem;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        color: rgb(45, 45, 45);
-        /* padding: 0; */
+    .AboutUs {
+        width: 100vw;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .AboutUs h1 {
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .AboutSection {
+        margin-top: 100px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .AboutSection p {
+        width: 100%;
+
     }
 }
