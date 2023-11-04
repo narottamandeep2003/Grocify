@@ -6,13 +6,21 @@ export default function Category() {
     <div className='Category'>
       <h3 className='Cheading'>Category</h3>
       <div className="CategoryList">
-        <CategoryItem imgUrl="./dairy.png" title="Dairy"></CategoryItem>
-        <CategoryItem imgUrl="./fruit.png" title="Fruit"></CategoryItem>
-        <CategoryItem imgUrl="./household.png" title="Household"></CategoryItem>
-        <CategoryItem imgUrl="./snack.png" title="Snacks"></CategoryItem>
-        <CategoryItem imgUrl="./vegetable.png" title="Vegetable"></CategoryItem>
+      
+        <CategoryItem imgUrl="./dairy.jpg" title="Dairy"></CategoryItem>
+        <CategoryItem imgUrl="./Drinks.jpg" title="Drinks"></CategoryItem>
+        <CategoryItem imgUrl="./fruits.jpg" title="Fruits"></CategoryItem>
+        <CategoryItem imgUrl="./household.jpg" title="Household"></CategoryItem>
+       
       </div>
-      <p className='CategoryView'>View All</p>
+      <div className="CategoryList">
+      
+        <CategoryItem imgUrl="./personalCare.jpg" title="Personal Care"></CategoryItem>
+        <CategoryItem imgUrl="./Petcare.jpg" title="Pet Care"></CategoryItem>
+        <CategoryItem imgUrl="./snacks.jpg" title="Snacks"></CategoryItem>
+        <CategoryItem imgUrl="./vegetables.jpg" title="Vegetable"></CategoryItem>
+       
+      </div>
     </div>
   )
 }

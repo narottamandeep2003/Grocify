@@ -13,16 +13,25 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Cart from './components/Cart';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
-import AboutUs from './components/AboutUs';
 import List from './List';
 import Payment from './components/Payment';
+import { useReducer, useState } from 'react';
 
 
 function App() {
-  const list=List
+  const [hash,setHash]=useState(new Map());
+  const [cartList,setcartList]=useState([])
+  let set=new Set();
+  set.add("All")
+  const initialTodos = List;
+  const [searchList,setsearchList]=useState(set)
+  const [SearchcartList,setSearchcartList]=useState(initialTodos)
+  const [cartDetail,setCartDetail]=useState({"subcost":0,"discount":0,"tax":0,"total":0});
+ 
+
   return (
     <> 
-    <UserContext.Provider  value={{"list":list}}>
+    <UserContext.Provider  value={{"list":initialTodos,cartList,setcartList,cartDetail,setCartDetail,hash,setHash,searchList,setsearchList,SearchcartList,setSearchcartList}}>
       <BrowserRouter>
         <NavBar></NavBar>
         <Routes>
@@ -31,7 +40,6 @@ function App() {
           <Route path='/Cart' element={<Cart></Cart>} />
           <Route path='/Login' element={<Login></Login>} />
           <Route path='/SignUp' element={<SignUp></SignUp>} />
-          <Route path='/AboutUs' element={<AboutUs></AboutUs>} />
           <Route path='/Payment' element={<Payment></Payment>} />
         </Routes>
       </BrowserRouter>

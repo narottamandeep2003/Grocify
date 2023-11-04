@@ -1,17 +1,29 @@
+import { UserContext } from '../Store'
 import Product from './Product'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 export default function Shop() {
+    let store = useContext(UserContext)
     const [topicsList, settopicsList] = useState([])
-    const TopicOnClick = (e) => {
+    const TopicOnClick = (e, name) => {
         if (e.currentTarget.classList.contains('Topic')) {
+
             e.currentTarget.classList.remove("Topic")
             e.currentTarget.classList.add("targetTopic")
+            let temp = store.searchList
+            temp.add(name)
+            store.setsearchList(temp)
+
 
         }
         else {
             e.currentTarget.classList.remove("targetTopic")
             e.currentTarget.classList.add("Topic")
+            let temp = store.searchList
+            temp.delete(name)
+            store.setsearchList(temp)
+            // console.log(store.searchList)
         }
+
     }
     const ref = useRef(null)
     const scroll = (scrollOffset) => {
@@ -20,8 +32,19 @@ export default function Shop() {
 
         }
     };
+    let handleApply = () => {
+        let newlist = (store["list"].filter((e) => {
+
+            if (store.searchList.has("All"))
+                return true
+            else if (store.searchList.has(e.category))
+                return true
+            else return false
+        }))
+        store.setSearchcartList(newlist)
+    }
     useEffect(() => {
-        settopicsList(["All", "Dairy", "Fruit", "Household", "Snacks", "Vegetable"])
+        settopicsList(["All", "Dairy", "fruit", "Household", "Snacks", "Vegetables"])
     }, [])
     return (
         <div className='ShopMainPAge'>
@@ -44,8 +67,10 @@ export default function Shop() {
                             </svg>
                         </span>
                         <div className="ScrollTipicBox" ref={ref}>
+
                             {topicsList.map((ele, index) => {
-                                return <span key={index} onClick={TopicOnClick} className='topics Topic'>{ele}</span>
+                                let flag = store.searchList.has(ele);
+                                return <span key={index} onClick={(event) => { TopicOnClick(event, ele) }} className={(flag) ? "topics targetTopic" : "topics Topic"}>{ele}</span>
                             })}
                         </div>
                         <span className='rightBtnTopic' onClick={() => scroll(30)}>
@@ -56,6 +81,9 @@ export default function Shop() {
                     </div>
 
                 </div>
+                <button className="btn btn-Primary  " type="button" id="Apply" aria-haspopup="true" aria-expanded="false" onClick={handleApply}>
+                    Apply
+                </button>
                 <div className="dropdown">
                     <button className="btn btn-secondary dropdown-toggle bg-dark " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Filter
@@ -64,7 +92,7 @@ export default function Shop() {
                         <button className="dropdown-item" type="button">Price Low to High</button>
                         <button className="dropdown-item" type="button">Price High to low</button>
                         <button className="dropdown-item" type="button">Sort by Name</button>
-                        
+
                     </div>
                 </div>
 
@@ -72,7 +100,7 @@ export default function Shop() {
             <div className='ShopPage'>
 
                 <div className="ShopPageSecondSection">
-                    <Product Margin={{ "margin": "20px" }}></Product>
+                    <Product Margin={{ "margin": "20px" }} type="Shop" ></Product>
                 </div>
             </div>
         </div>

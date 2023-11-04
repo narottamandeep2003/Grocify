@@ -4,7 +4,7 @@ export default function Filter() {
   const FilterList = ["All", "Dairy", "Fruit", "Household", "Snacks", "Vegetable"]
   return (
     <div className="ShopPageFirstSection">
-      
+
       <div className="FilterHead">
         <div className="FilterFirst">
           <span className='FilterFirstSvg'>

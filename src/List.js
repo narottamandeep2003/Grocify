@@ -3,197 +3,258 @@ let list= [
     {
       name:"Pineapple",
       imgUrl:"./S1.jpg",
-      type:{
-        kg:2
-      },
+      category:"fruit",
+      text:"1kg",
       price:200,
+      stock:5,
+
 
     },{
-      name:"Fruit",
+      name:"Avocado",
       imgUrl:"./S2.jpg",
-      type:{
-        kg:2
-      },
+      category:"fruit",
+      text:"1kg",
       price:150,
+      stock:5,
 
     },{
       name:"Papaya",
       imgUrl:"./S3.jpg",
-      type:{
-        kg:2
-      },
+      category:"fruit",
+      text:"1kg",
       price:100,
+      stock:5,
 
     },{
       name:"Apple",
       imgUrl:"./S4.jpg",
-      type:{
-        kg:5
-      },
+      category:"fruit",
+      text:"1kg",
       price:100,
+      stock:5,
 
     },{
       name:"Kevin",
       imgUrl:"./S5.jpg",
-      type:{
-        kg:1
-      },
+      category:"fruit",
+      text:"1kg",
       price:300,
+      stock:5,
 
     },{
       name:"Orange",
       imgUrl:"./S6.jpg",
-      type:{
-        kg:1
-      },
+      category:"fruit",
+      text:"1kg",
       price:300,
+      stock:5,
 
     },{
       name:"Pear",
       imgUrl:"./S7.jpg",
-      type:{
-        kg:1
-      },
+      category:"fruit",
+      text:"1kg",
       price:300,
+      stock:5,
 
     },{
-      name:"Milk",
+      name:"Strawberry",
       imgUrl:"./S8.jpg",
-      type:{
-        Lt:1
-      },
+      category:"fruit",
+      text:"1kg",
       price:30,
+      stock:5,
+
+    },
+
+    
+    {
+      name:"Butter",
+      imgUrl:"./Butter.jpg",
+      category:"Dairy",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },
+     {
+      name:"Cheese",
+      imgUrl:"./cheese.jpg",
+      category:"Dairy",
+      text:"1kg",
+      price:30,
+      stock:5,
 
     },
     {
-      name:"Pineapple",
-      imgUrl:"./S1.jpg",
-      type:{
-        kg:2
-      },
-      price:200,
-
-    },{
-      name:"Fruit",
-      imgUrl:"./S2.jpg",
-      type:{
-        kg:2
-      },
-      price:150,
-
-    },{
-      name:"Papaya",
-      imgUrl:"./S3.jpg",
-      type:{
-        kg:2
-      },
-      price:100,
-
-    },{
-      name:"Apple",
-      imgUrl:"./S4.jpg",
-      type:{
-        kg:5
-      },
-      price:100,
-
-    },{
-      name:"Kevin",
-      imgUrl:"./S5.jpg",
-      type:{
-        kg:1
-      },
-      price:300,
-
-    },{
-      name:"Orange",
-      imgUrl:"./S6.jpg",
-      type:{
-        kg:1
-      },
-      price:300,
-
-    },{
-      name:"Pear",
-      imgUrl:"./S7.jpg",
-      type:{
-        kg:1
-      },
-      price:300,
-
-    },{
       name:"Milk",
-      imgUrl:"./S8.jpg",
-      type:{
-        Lt:1
-      },
+      imgUrl:"./Milk.jpg",
+      category:"Dairy",
+      text:"1kg",
       price:30,
+      stock:5,
 
-    },{
-      name:"Pineapple",
-      imgUrl:"./S1.jpg",
-      type:{
-        kg:2
-      },
-      price:200,
-
-    },{
-      name:"Fruit",
-      imgUrl:"./S2.jpg",
-      type:{
-        kg:2
-      },
-      price:150,
-
-    },{
-      name:"Papaya",
-      imgUrl:"./S3.jpg",
-      type:{
-        kg:2
-      },
-      price:100,
-
-    },{
-      name:"Apple",
-      imgUrl:"./S4.jpg",
-      type:{
-        kg:5
-      },
-      price:100,
-
-    },{
-      name:"Kevin",
-      imgUrl:"./S5.jpg",
-      type:{
-        kg:1
-      },
-      price:300,
-
-    },{
-      name:"Orange",
-      imgUrl:"./S6.jpg",
-      type:{
-        kg:1
-      },
-      price:300,
-
-    },{
-      name:"Pear",
-      imgUrl:"./S7.jpg",
-      type:{
-        kg:1
-      },
-      price:300,
-
-    },{
-      name:"Milk",
-      imgUrl:"./S8.jpg",
-      type:{
-        Lt:1
-      },
+    },
+    {
+      name:"Yogurt",
+      imgUrl:"./Yogurt.jpg",
+      category:"Dairy",
+      text:"1kg",
       price:30,
+      stock:5,
+
+    },
+
+
+
+    {
+      name:"Tomatoes",
+      imgUrl:"./Tomatoes.jpg",
+      category:"Vegetables",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Beets",
+      imgUrl:"./Beets.jpg",
+      category:"Vegetables",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Broccoli",
+      imgUrl:"./Broccoli.jpg",
+      category:"Vegetables",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Cabbage",
+      imgUrl:"./Cabbage.jpg",
+      category:"Vegetables",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Cauliflower",
+      imgUrl:"./Cauliflower.jpg",
+      category:"Vegetables",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Garlic",
+      imgUrl:"./Garlic.jpg",
+      category:"Vegetables",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Onions",
+      imgUrl:"./Onions.jpg",
+      category:"Vegetables",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Potatoes",
+      imgUrl:"./Potatoes.jpg",
+      category:"Vegetables",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },
+
+
+
+
+
+    {
+      name:"Popcorn",
+      imgUrl:"./Popcorn.jpg",
+      category:"Snacks",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Almonds",
+      imgUrl:"./Almonds.jpg",
+      category:"Snacks",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Candy",
+      imgUrl:"./Candy.jpg",
+      category:"Snacks",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Cookies",
+      imgUrl:"./Cookies.jpg",
+      category:"Snacks",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },
+
+
+
+    {
+      name:"Sponges",
+      imgUrl:"./Sponges.jpg",
+      category:"Household",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Batteries",
+      imgUrl:"./Batteries.jpg",
+      category:"Household",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"soap",
+      imgUrl:"./soap.jpg",
+      category:"Household",
+      text:"1kg",
+      price:30,
+      stock:5,
+
+    },{
+      name:"Napkins",
+      imgUrl:"./Napkins.jpg",
+      category:"Household",
+      text:"1kg",
+      price:30,
+      stock:5,
 
     }
+
+
+
+
+
+
+
+
+
   ]
 
   export default list

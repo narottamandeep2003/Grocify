@@ -390,3 +390,8 @@ padding: 0px 5px;
 #dropdownMenu2{
 z-index: 15;
 }
+#Apply{
+    background-color: black;
+    color: white;
+margin: 0px 10px;
+}

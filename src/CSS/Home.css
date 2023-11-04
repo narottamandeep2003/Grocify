@@ -436,49 +436,41 @@
 }
 
 .Category h3 {
-    cursor: pointer;
-    margin-bottom: 80px;
-    text-align: center;
+    font-size: 3rem;
+   text-align:  center;
+   font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    margin: 100px 0px;
 
 }
 
-.Category .CategoryView {
-    font-size: .9rem;
-    margin-top: 30px;
-    width: 70%;
-    text-align: end;
-    /* margin-left: auto; */
-    font-family: Arial, Helvetica, sans-serif;
-    color: orange;
-    cursor: pointer;
-}
-
-.CategoryList {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.CategoryList{
+    margin: 20px 0px;
     width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.CategoryItem {
+.cItem {
+    display: flex;
+    width: 200px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
-    box-shadow: rgba(13, 13, 23, 0.25) 10px 50px 100px -20px, rgba(13, 13, 25, 0.25) -10px -50px 100px -20px, rgba(0, 0, 0, 0.3) 20px 30px 60px -30px;
 }
-
-.CategoryImg {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
+.cItem img{
+    width: 200px;
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
 }
-
+.cItem span{
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    color: black;
+}
 .Footer {
     background-color: white;
     border: 1px solid bisque;
@@ -675,7 +667,7 @@
 }
 
 .ProductPrice span p {
-    color: rgb(63, 63, 63);
+    color: rgb(119, 119, 119);
 }
 
 .ProductPrice button {
@@ -685,13 +677,14 @@
     justify-content: center;
     align-items: center;
     /* vertical-align:middle; */
-
-    padding: 5px 15px;
+    display: flexbox;
+    width: 30px;
+    height: 25px;
     outline: none;
     border: none;
     border-radius: 25px;
 
-    background-color: rgb(212, 212, 212);
+    background-color:  #d1d1d1;
 }
 
 .ProductPrice button svg {
@@ -737,85 +730,34 @@
 .AboutUs {
     width: 100vw;
     margin-top: 70px;
-}
-
-.AboutUsbg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    width: 100%;
-    height: 300px;
-    background-image: url("./../../public/pexels-meruyert-gonullu-6152386.jpg");
-    background-position: 100vw;
-    background-size: cover;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Playfair Display', serif;
-}
-
-.AboutUsbg p {
-    text-align: center;
-    width: 50%;
-    color: white;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Playfair Display', serif;
-}
-
-.AboutUsQ {
-    margin-top: 100px;
-    /* height: 300px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Playfair Display', serif;
-
-}
-
-.AboutUsQ h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    width: 50%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.AboutUsB {
-    margin-top: 100px;
     margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
 }
-
-.AboutUsB h1 {
-    padding-bottom: 10px;
-    border-bottom: 2px solid blueviolet;
-
-}
-
-.AboutUsB p {
-    margin-top: 50px;
-    width: 50%;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Playfair Display', serif;
-}
-
-.Cheading{
-    margin: 80px 0px;
-    margin-bottom: 50px;
-    width: 100vw;
+.AboutUs h1{
     font-size: 3rem;
    text-align:  center;
    font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
 }
 
+.AboutSection{
+    margin-top: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AboutImg{
+    height: 70vh;
+}
+.AboutSection p{
+    width: 40%;
+
+}
 .Footer{
     display: flex;
     justify-content: space-evenly;
