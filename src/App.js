@@ -15,7 +15,7 @@ import Login from './components/Login';
 import SignUp from './components/SignUp';
 import List from './List';
 import Payment from './components/Payment';
-import { useReducer, useState } from 'react';
+import { useState } from 'react';
 
 
 function App() {

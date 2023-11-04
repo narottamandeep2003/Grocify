@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import ProductsItem from './ProductsItem'
 import { useContext } from 'react'
 import { UserContext } from '../Store'
