@@ -164,7 +164,7 @@
 .CartDetails {
     padding-top: 5px;
     width: 30%;
-    height: 50px;
+    height: auto;
     /* border: 1px solid black; */
 
 }
@@ -546,4 +546,99 @@
     width: 80%;
     height: 1px;
     background: #b4b4b4;
+}
+@media screen and (max-width:700px) {
+    .CartPage {
+        margin-top: 50px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .CartPageHeading {
+        width: 85%;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .CartWindow {
+        /* margin-top: 50px; */
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #169BD7; */
+    }
+    .CartDetails {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+        width: 100%;
+        /* height: 50px; */
+        /* border: 1px solid black; */
+    
+    }
+
+    .CartList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* height: 50px; */
+    /* border: 1px solid black; */
+    }
+    .CartItem {
+        position: relative;
+        margin: 10px 0px;
+        padding-bottom: 5px;
+        width: 90%;
+        /* height: 200px; */
+        /* border: 1px solid rgb(105, 105, 105); */
+        /* border-radius: 20px; */
+        display: flex;
+        flex-direction: column;
+        /* padding: 10px 0px; */
+        background-color: rgb(237, 237, 237);
+    }
+    .CartItemLeft {
+
+        display: flex;
+        align-items: center;
+        height: auto;
+        margin-right: 0px;
+    }
+    .CartImg {
+        width: 100%;
+        margin: 0px 0px;
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+        /* height: auto; */
+    
+    }
+    .CartItemRight {
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .CartItemRight h1 {
+        cursor: pointer;
+        user-select: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+    }
+    .CartDisc {
+        margin: 2px;
+        font-size: .8rem;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
 }

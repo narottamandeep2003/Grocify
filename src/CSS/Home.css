@@ -792,3 +792,168 @@
     margin: 0px 15px;
     cursor: pointer;
 }
+
+@media screen and (max-width:700px) {
+    .LandingPage{
+        margin-top: 50px;
+    }
+    .Lheading {
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+    }
+    .LQ{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .LQ1{
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+    .LQ1 p{
+        font-size: .8rem;
+        font-weight: 500;
+    }
+    .fQ{
+        position: relative;
+        top: -20px;
+        width: 30px;
+        height: 30px;
+    }
+    .profileL {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        /* border: 2px solid white; */
+    }
+    .LImagesBox{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+     }
+     .L1itemB1{
+        display: none;
+     }
+     .L1itemB2{
+        display: none;
+     }
+     .L1itemRB1{
+        display: none;
+     }
+     .L1itemB3,.L1itemB4{
+        display: none;
+     }
+     .LImgM{
+        margin: 10px 0px;
+        border-radius: 0px;
+         width: 100%;
+        object-fit:cover;
+        object-position: center;
+    }
+    .Category h3 {
+        font-size: 2rem;
+       text-align:  center;
+       font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+        margin: 70px 0px;
+    
+    }
+    .CategoryList{
+        margin: 0px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cItem {
+        margin: 20px 0px;
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cItem img{
+        width: 90%;
+        /* height: ; */
+        object-position: center;
+        object-fit: cover;
+    }
+    .cItem span{
+        margin-top: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .9rem;
+        color: black;
+    }
+    .HProduct{
+        margin: 70px 0px;
+        margin-bottom: 50px;
+        width: 100vw;
+        font-size: 2rem;
+       text-align:  center;
+       font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+    }
+    .Product {
+        /* border: 1px solid black; */
+        background-color: white;
+        margin: 70px 0px;
+        width: 80%;
+        display: grid;
+        /* justify-content: center; */
+        grid-template-columns: auto auto;
+        grid-gap: 5px;
+        /* grid-template: auto auto auto; */
+        /* justify-content: center; */
+    }
+    .ProductsItem {
+
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        /* box-shadow: 5px 5px 5px rgba(126, 126, 126, 0.541); */
+        cursor: pointer;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-radius: 5px;
+        width: 150px;
+        padding-bottom: 10px;
+        transition: all .3s ease;
+    
+        border: 1px solid rgb(212, 212, 212);
+    }
+    .ProductImgSec {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        /* background-color: #ffd7c2; */
+        width: 100%;
+        height: 120px;
+    
+    }
+    .ProductBody h1 {
+        /* margin-top: 5px; */
+        padding: 2px 2px;
+        font-size: .8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        color: rgb(45, 45, 45);
+        /* padding: 0; */
+    }
+}

@@ -30,9 +30,11 @@ nav {
     align-items: center;
     list-style: none;
 }
-.navLi{
+
+.navLi {
     margin-bottom: 0px;
 }
+
 .navLi li {
     margin: 0px 20px;
 }
@@ -115,7 +117,167 @@ nav {
     font-family: 'Playfair Display', serif;
     transition: all .3s ease;
 }
-.signUp:hover{
+
+.signUp:hover {
     background-color: black;
     color: white;
+}
+
+.headingNav a {
+    text-decoration: none;
+    color: black;
+}
+
+.SmallScreen {
+    display: none;
+}
+
+.NavBTN {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: red;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.NavBTN:focus {
+    outline: none;
+    border: none;
+}
+
+.NavBTN svg {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.CartSmall {
+    display: none;
+}
+.NavBTN{
+    display: none;
+}
+@media screen and (max-width:700px) {
+
+
+    .headingNav {
+        margin-left: 10px;
+        font-size: .9rem;
+    }
+
+    .navLi {
+        display: none;
+    }
+
+    .RightNavLi {
+        display: none;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+    .NavBTN {
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: red;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SmallScreen {
+        margin-left: auto;
+        margin-right: 15px;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .SmallScreen li {
+        margin: 0px 5px;
+        list-style: none;
+    }
+
+    .CartSmall {
+        margin-left: auto;
+        margin-right: 15px;
+        padding: 0;
+        display: flex;
+
+        margin-bottom: 0px;
+
+    }
+
+    .CartSmall .Cart svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .CartSmall .Cart .TotalCartItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        font-size: .5rem;
+        width: 15px;
+        height: 15px;
+        top: -10px;
+        left: 5px;
+        border-radius: 50%;
+        /* right: 0px; */
+        color: white;
+        position: relative;
+    }
+
+    .SmallStore {
+        margin-left: 100%;
+        margin-right: 10px;
+        padding: 0;
+        margin: 0;
+        font-size: .8rem;
+        color: black;
+        text-decoration: none;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .SmallStore a {
+
+        color: black;
+        text-decoration: none;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .SShop {
+        color: black;
+        text-decoration: none;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+        margin-right: 15px;
+        font-size: .8rem;
+        text-decoration: none;
+
+    }
+    .SShop:hover{
+        text-decoration: none;
+        color: black;
+    }
+    .CartSmall .Cart{
+        color:white;
+        text-decoration: none;
+    }
+    .Cart a:hover{
+        color:white;
+        text-decoration: none;
+    }
 }

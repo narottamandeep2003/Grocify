@@ -10,6 +10,12 @@ export default function Home() {
   return (
     <div>
       <LandingPage></LandingPage>
+      <Category></Category>
+      <h1 className='HProduct'>Product</h1>
+      <div className="section">
+        <Product Margin={{ "margin": "100px" }}></Product>
+      </div>
+      {/* 
       
       <Category></Category>
       <h1 className='HProduct'>Product</h1>
@@ -18,7 +24,7 @@ export default function Home() {
         <Product Margin={{ "margin": "100px" }}></Product>
       </div>
       
-      <AboutUs></AboutUs>
+      <AboutUs></AboutUs> */}
       {/* <Offers></Offers> */}
       {/* <Footer></Footer> */}
     </div>
