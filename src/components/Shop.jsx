@@ -12,8 +12,6 @@ export default function Shop() {
             let temp = store.searchList
             temp.add(name)
             store.setsearchList(temp)
-
-
         }
         else {
             e.currentTarget.classList.remove("targetTopic")

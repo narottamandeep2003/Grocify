@@ -622,6 +622,7 @@
     
     }
     .CartItemRight {
+        padding: 5px;
         margin: 0px;
         font-family: Arial, Helvetica, sans-serif;
     
@@ -640,5 +641,188 @@
         width: 100%;
         font-family: Arial, Helvetica, sans-serif;
     }
+    .PaymentPage {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto
+    }
+    .PaymentWindow {
+        /* background-color: aliceblue; */
+        padding: 5px;
+        border-radius: 10px;
+        width: 90%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .PaymetLeftImg {
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        display: none;
+    }
+    .PaymentForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: center; */
+        width: 100%;
+        /* height: 100%; */
+    }
+    .BtnPymentApple {
+        margin-top: 10px;
+        cursor: pointer;
     
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        display: flexbox;
+        height: 30px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    .BtnPymentApple svg {
+        width: 15px;
+        height: 15px;
+        color: white;
+        font-size: .9rem;
+    }
+    .PaymetSec {
+        font-size: .7rem;
+        color: rgb(169, 169, 169);
+        margin-bottom: 5px;
+    }
+    .BtnPymentPayPal {
+        margin: 10px 0px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        display: flexbox;
+        height: 30px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: black;
+        border: 1px solid #253B80;
+    }
+    .BtnPymentPayPal:focus{
+        outline: none;
+    }
+    .BtnPymentPayPal svg {
+        width: 15px;
+        height: 15px;
+        color: #253B80;
+        font-size: .9rem;
+    }
+    
+.BtnPymentPay {
+    margin: 10px 0px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    display: flexbox;
+    height: 30px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: #169BD7;
+    color: white;
+    /* border: 1px solid #253B80; */
+}
+.PaymentItem label {
+    font-weight: 400;
+    font-size: .7rem;
+    color: rgb(0, 0, 0);
+}
+.PaymentItem input::placeholder{
+    font-size: .7rem;
+    color: #656565;
+}
+
+.PaymentItem input {
+    font-size: .7rem;
+    width: 100%;
+    border-radius: 20px;
+    height: 35px;
+    padding: 0px 10px;
+    border: 1px solid #b4b4b4;
+    color: #656565;
+}
+.PaymentItem input:focus{
+    outline: none;
+}
+
+.PAyIconInput {
+    display: flex;
+    width: 100%;
+
+}
+
+.PAyIconInput span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #b4b4b4;
+    border-right: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color:#b4b4b4;
+}
+
+.PAyIconInput input {
+    font-size: .8rem;
+    width: 100%;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 35px;
+    padding: 0px 10px;
+    border: 1px solid #b4b4b4;
+    border-left: none;
+    border-top-right-radius: 25px;
+    color: #656565;
+    border-bottom-right-radius: 25px;
+
+}
+
+.DateItem input {
+    height: 30px;
+    outline: none;
+    border: 1px solid #b4b4b4;
+    border-radius: 20px;
+    width: 70px;
+    color: #656565;
+    text-align: center;
+    font-size: .7rem;
+}
+.CVV input {
+    outline: none;
+    color: #656565;
+    border: 1px solid #b4b4b4;
+    width: 50px;
+    border-right: 0px;
+    padding: 0px 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 0px 10px;
+    font-size: .7rem;
+}
 }
