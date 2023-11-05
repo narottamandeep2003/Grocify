@@ -37,7 +37,7 @@ Grocify's primary aim is to provide users with an attractive, user-friendly, and
 ![Alt text](image-7.png)
 The scope of Grocify, the online grocery website, covers a user-friendly and responsive platform for grocery shopping. Using HTML, CSS, JavaScript, and React, the website offers a modern interface with key components: a fixed navigation bar, landing page, product categories, shop items, About Us section, product filtering, login/sign-up, and a cart. The scope emphasizes efficient product selection, cart management, and user authentication, aiming to create a seamless and visually appealing online grocery shopping experience for users.
 
-![Alt text](image-8.png){ width=200 }
+![Alt text](image-8.png){ width=50% }
 
 ![Alt text](image-9.png)
 
