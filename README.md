@@ -27,12 +27,18 @@ Shop Component: Equipped with advanced filtering and search functionality, this 
 Login/Sign Up: A user-friendly authentication process streamlines access to the platform, ensuring a seamless user experience. 
 
 Cart: Accessible via the navigation bar, the cart component enables users to view, modify, and complete their purchases with selected items. It provides a comprehensive list of cart items and guides users through the checkout process. 
+
 ![Alt text](image-5.png)
 About Us: The About Us page shares insights into the website's mission and offers additional relevant information.
-![Alt text](image-3.png) 
+![Alt text](image-3.png)
+
 Grocify's primary aim is to provide users with an attractive, user-friendly, and responsive platform for online grocery shopping, enhancing their overall experience from product selection to final purchase. It aspires to be the go-to destination for users seeking a convenient and enjoyable online grocery shopping solution. 
+
 ![Alt text](image-7.png)
 The scope of Grocify, the online grocery website, covers a user-friendly and responsive platform for grocery shopping. Using HTML, CSS, JavaScript, and React, the website offers a modern interface with key components: a fixed navigation bar, landing page, product categories, shop items, About Us section, product filtering, login/sign-up, and a cart. The scope emphasizes efficient product selection, cart management, and user authentication, aiming to create a seamless and visually appealing online grocery shopping experience for users.
-![Alt text](image-8.png)
+
+![Alt text](image-8.png){ width=200 }
+
 ![Alt text](image-9.png)
+
 ![Alt text](image-10.png)
