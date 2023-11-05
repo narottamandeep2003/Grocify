@@ -414,7 +414,7 @@ margin: 0px 10px;
     }
     .topic {
         margin: 5px 0px;
-        width: 100%;
+        width: 95%;
     }
     .HomeTopicBox span {
         cursor: pointer;
@@ -427,7 +427,7 @@ margin: 0px 10px;
         display: none;
     }
     #Apply{
-        width: 100%;
+        width: 95%;
         border: none;
         outline: none;
     }
@@ -448,6 +448,6 @@ margin: 0px 10px;
         align-items: center;
     }
     .searchBox input{
-        width: 90vw;
+        width: 85vw;
     }
 }

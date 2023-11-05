@@ -523,8 +523,8 @@
     width: 80%;
     display: grid;
     /* justify-content: center; */
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 50px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 50px 25px;
     /* grid-template: auto auto auto; */
     /* justify-content: center; */
 }
@@ -541,7 +541,7 @@
 /* ProductsItem */
 .ProductsItem {
 
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: transparent;
     /* box-shadow: 5px 5px 5px rgba(126, 126, 126, 0.541); */
     cursor: pointer;
     border-top-right-radius: 5px;
@@ -774,8 +774,8 @@
 }
 
 .AboutSection p {
-    width: 40%;
-
+    text-align: center;
+    width: 50%;
 }
 
 .Footer {
@@ -818,6 +818,14 @@
 }
 
 @media screen and (max-width:700px) {
+    .LandingCon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        /* height: 50px; */
+        /* border: 1px solid black; */
+    }
     .LandingPage {
         margin-top: 50px;
     }
@@ -957,24 +965,24 @@
         /* border: 1px solid black; */
         background-color: white;
         margin: 70px 0px;
-        width: 80%;
+        width: 100%;
         display: grid;
         /* justify-content: center; */
         grid-template-columns: auto auto;
-        grid-gap: 5px;
+        grid-gap: 5px 0px;
         /* grid-template: auto auto auto; */
         /* justify-content: center; */
     }
 
     .ProductsItem {
 
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        box-shadow: transparent;
         /* box-shadow: 5px 5px 5px rgba(126, 126, 126, 0.541); */
         cursor: pointer;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
         border-radius: 5px;
-        width: 150px;
+        width: 95%;
         padding-bottom: 10px;
         transition: all .3s ease;
 
@@ -990,7 +998,7 @@
         border-top-left-radius: 5px;
         /* background-color: #ffd7c2; */
         width: 100%;
-        height: 120px;
+        height: 150px;
 
     }
     .AboutUs {
@@ -1000,7 +1008,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
     }
 
     .AboutUs h1 {
@@ -1017,6 +1025,7 @@
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 50px;
     }
 
     .AboutImg {
@@ -1025,7 +1034,9 @@
     }
 
     .AboutSection p {
-        width: 100%;
+        margin-top: 10px;
+        width: 95%;
+        font-size: .8rem;
 
     }
 }

@@ -14,7 +14,7 @@ let list= [
       imgUrl:"./S2.jpg",
       category:"fruit",
       text:"1kg",
-      price:150,
+      price:350,
       stock:5,
 
     },{
@@ -29,7 +29,7 @@ let list= [
       name:"Apple",
       imgUrl:"./S4.jpg",
       category:"fruit",
-      text:"1kg",
+      text:"3kg",
       price:100,
       stock:5,
 
@@ -38,7 +38,7 @@ let list= [
       imgUrl:"./S5.jpg",
       category:"fruit",
       text:"1kg",
-      price:300,
+      price:500,
       stock:5,
 
     },{
@@ -46,7 +46,7 @@ let list= [
       imgUrl:"./S6.jpg",
       category:"fruit",
       text:"1kg",
-      price:300,
+      price:90,
       stock:5,
 
     },{
@@ -54,7 +54,7 @@ let list= [
       imgUrl:"./S7.jpg",
       category:"fruit",
       text:"1kg",
-      price:300,
+      price:100,
       stock:5,
 
     },{
@@ -62,7 +62,7 @@ let list= [
       imgUrl:"./S8.jpg",
       category:"fruit",
       text:"1kg",
-      price:30,
+      price:200,
       stock:5,
 
     },
@@ -72,8 +72,8 @@ let list= [
       name:"Butter",
       imgUrl:"./Butter.jpg",
       category:"Dairy",
-      text:"1kg",
-      price:30,
+      text:"100gm",
+      price:80,
       stock:5,
 
     },
@@ -81,8 +81,8 @@ let list= [
       name:"Cheese",
       imgUrl:"./cheese.jpg",
       category:"Dairy",
-      text:"1kg",
-      price:30,
+      text:"100gm",
+      price:100,
       stock:5,
 
     },
@@ -90,7 +90,7 @@ let list= [
       name:"Milk",
       imgUrl:"./Milk.jpg",
       category:"Dairy",
-      text:"1kg",
+      text:"1lt",
       price:30,
       stock:5,
 
@@ -100,7 +100,7 @@ let list= [
       imgUrl:"./Yogurt.jpg",
       category:"Dairy",
       text:"1kg",
-      price:30,
+      price:180,
       stock:5,
 
     },
@@ -112,7 +112,7 @@ let list= [
       imgUrl:"./Tomatoes.jpg",
       category:"Vegetables",
       text:"1kg",
-      price:30,
+      price:60,
       stock:5,
 
     },{
@@ -120,7 +120,7 @@ let list= [
       imgUrl:"./Beets.jpg",
       category:"Vegetables",
       text:"1kg",
-      price:30,
+      price:50,
       stock:5,
 
     },{
@@ -128,7 +128,7 @@ let list= [
       imgUrl:"./Broccoli.jpg",
       category:"Vegetables",
       text:"1kg",
-      price:30,
+      price:90,
       stock:5,
 
     },{
@@ -136,7 +136,7 @@ let list= [
       imgUrl:"./Cabbage.jpg",
       category:"Vegetables",
       text:"1kg",
-      price:30,
+      price:80,
       stock:5,
 
     },{
@@ -151,8 +151,8 @@ let list= [
       name:"Garlic",
       imgUrl:"./Garlic.jpg",
       category:"Vegetables",
-      text:"1kg",
-      price:30,
+      text:"500gm",
+      price:100,
       stock:5,
 
     },{
@@ -160,7 +160,7 @@ let list= [
       imgUrl:"./Onions.jpg",
       category:"Vegetables",
       text:"1kg",
-      price:30,
+      price:70,
       stock:5,
 
     },{
@@ -168,7 +168,7 @@ let list= [
       imgUrl:"./Potatoes.jpg",
       category:"Vegetables",
       text:"1kg",
-      price:30,
+      price:100,
       stock:5,
 
     },
@@ -181,7 +181,7 @@ let list= [
       name:"Popcorn",
       imgUrl:"./Popcorn.jpg",
       category:"Snacks",
-      text:"1kg",
+      text:"100gm",
       price:30,
       stock:5,
 
@@ -190,7 +190,7 @@ let list= [
       imgUrl:"./Almonds.jpg",
       category:"Snacks",
       text:"1kg",
-      price:30,
+      price:500,
       stock:5,
 
     },{
@@ -198,14 +198,14 @@ let list= [
       imgUrl:"./Candy.jpg",
       category:"Snacks",
       text:"1kg",
-      price:30,
+      price:500,
       stock:5,
 
     },{
       name:"Cookies",
       imgUrl:"./Cookies.jpg",
       category:"Snacks",
-      text:"1kg",
+      text:"300gm",
       price:30,
       stock:5,
 
@@ -218,14 +218,14 @@ let list= [
       imgUrl:"./Sponges.jpg",
       category:"Household",
       text:"1kg",
-      price:30,
+      price:80,
       stock:5,
 
     },{
       name:"Batteries",
       imgUrl:"./Batteries.jpg",
       category:"Household",
-      text:"1kg",
+      text:"1PAck",
       price:30,
       stock:5,
 
@@ -234,16 +234,34 @@ let list= [
       imgUrl:"./soap.jpg",
       category:"Household",
       text:"1kg",
-      price:30,
+      price:100,
       stock:5,
 
     },{
       name:"Napkins",
       imgUrl:"./Napkins.jpg",
       category:"Household",
-      text:"1kg",
-      price:30,
+      text:"1box",
+      price:20,
       stock:5,
+
+    },
+    {
+      name:"conditioner",
+      imgUrl:"./conditioner.jpg",
+      category:"Household",
+      text:"1lt",
+      price:200,
+      stock:8,
+
+    },
+    {
+      name:"Shampoo",
+      imgUrl:"./Shampoo.jpg",
+      category:"Household",
+      text:"1lt",
+      price:150,
+      stock:7,
 
     }
 

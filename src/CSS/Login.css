@@ -7,6 +7,7 @@
 }
 
 .LoginForm {
+    margin-top: 50px;
     width: 400px;
     /* height: 500px; */
     border: 1px solid rgb(186, 186, 186);

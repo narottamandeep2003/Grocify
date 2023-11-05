@@ -122,7 +122,6 @@ export default function ProductsItem(props) {
                         <div className="ProductAdd">
                             <button className='Productl' onClick={handleL} >-</button><button className='Productm'>{val}</button><button className='Productr' onClick={handleR}>+</button>
                         </div>
-
                     </div>
                 </div>
             </div>
